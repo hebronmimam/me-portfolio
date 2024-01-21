@@ -1,0 +1,59 @@
+body {
+    padding: 0px 50px;
+    max-width: 1440px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+nav {
+    padding: 20px 30px;
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 300px;
+    gap: 20px;
+}
+
+.grid {
+    padding: 20px;
+    color: #000;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.flex {
+    flex: 1;
+    padding: 20px;
+    color: #000;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ddd;
+}
